@@ -1,0 +1,514 @@
+.fa-stack {
+    font-size: 8px !important;
+}
+.beside_low {
+    width: 12px;
+    height: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: -2px;
+}
+.circle {
+    background-color: grey;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 5px;
+    height: 50%;
+}
+.summary {
+    border-radius: 4px;
+    background: #f3f3f3;
+}
+.sort_date {
+    color: white;
+}
+
+.summary {
+    min-width: 1150px;
+    white-space: nowrap;
+    position: relative;
+    z-index: 3;
+}
+.subsummary {
+    width: 30%;
+    padding: 10px;
+}
+.subsummaryone {
+    width: 7%;
+    padding: 10px;
+}
+.outer {
+    background: #fff;
+    border: 1px solid #bbb;
+    min-height: 52px;
+    padding: 10px;
+    margin: 0 -1px 0 0;
+    flex: 1 1 0;
+    position: relative;
+    text-decoration: none !important;
+}
+.inner_top {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 18px;
+}
+.inner_bottom {
+    margin-right: -1px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    position: relative;
+}
+.green {
+    border-color: #008000;
+    color: #008000 !important;
+}
+.red {
+    border-color: #dc143c;
+    color: #dc143c !important;
+}
+.none {
+    display: none;
+}
+.tiny {
+    text-shadow: #fff 1px 1px 3px;
+    margin: -5px 0 0 2px;
+    font-size: 11px;
+    position: absolute;
+}
+
+.days i:not(.active) {
+    color: gray;
+}
+.days i {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    margin: 8px 0 0 8px;
+    text-align: center;
+    line-height: 32px;
+    display: block;
+}
+.days {
+    display: flex;
+}
+.days i:not(.active):hover {
+    background: #6cb2eb;
+}
+.btn-custom {
+    background-color: #00000008;
+}
+
+.times .clock i.hour,
+.times .clock i.minute {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.hoverday {
+    background: #6cb2eb;
+}
+input#myTime {
+    width: 309.88px;
+    text-align: center;
+    border-color: #00000008 !important;
+}
+
+.flatpickr-calendar.animate.inline {
+    margin-left: 10%;
+}
+.likeinput {
+    width: 310.88px;
+    text-align: center;
+}
+.likeinput1 {
+    border: none !important;
+    width: 45%;
+    text-align: center;
+}
+.flatpickr-input.active {
+    background-color: transparent !important;
+}
+.times .clock {
+    border-radius: 100%;
+    background: cyan;
+    width: 30px;
+    height: 30px;
+    margin: -1px -15px -1px -1px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+.date_header_url {
+    max-width: 96px;
+}
+.date_header_url span.mk {
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+.active {
+    //background-color: #343a40!important;
+}
+.btn-secondary:not(:disabled):not(.disabled):active,
+.btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+    //background-color: #343a40!important;
+}
+#competitors .btn {
+    margin-right: 4px;
+    white-space: nowrap;
+}
+.bg-indigo {
+    background: $indigo;
+}
+
+.fas.disabled,
+.fa.disabled,
+.disabled .fas,
+.disabled .fa {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.ui-datepicker-calendar .selected-date a.ui-state-default {
+    background: #ffaca8;
+    border: 2px solid #ff857f;
+    color: white;
+}
+
+.btn-yandex {
+    background: rgb(255, 204, 0);
+    color: black;
+}
+.btn-google {
+    background: rgb(66, 133, 244);
+}
+
+.selectbox__small {
+    max-width: 100px;
+}
+
+.yandex-position-container {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100px;
+    background: #e1e1e1;
+    text-align: center;
+}
+.google-position-container {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100px;
+    background: #e1e1e1;
+    text-align: center;
+}
+
+.position-container__1-3 {
+    background: #a2bcdf;
+}
+.position-container__4-10 {
+    background: #6cc07b;
+}
+.position-container__11-20 {
+    background: #c7e690;
+}
+.position-container__21-40 {
+    background: #f0f385;
+}
+.position-container__41-60 {
+    background: #fed78c;
+}
+.position-container__61-80 {
+    background: #fb9e76;
+}
+.position-container__81-100 {
+    background: #f8696b;
+}
+
+.position-table-container {
+    position: relative;
+    max-height: 100vh;
+    overflow-x: auto;
+    .table {
+        width: auto;
+        thead {
+            height: 50px;
+            th {
+                position: sticky;
+                top: -1px;
+                height: 50px;
+                vertical-align: middle;
+                &:first-child {
+                    width: 400px;
+                }
+            }
+        }
+        tbody {
+            td {
+                width: 100px;
+                vertical-align: middle;
+                &:first-child {
+                    width: 400px;
+                }
+            }
+        }
+    }
+}
+
+.search-setup-container {
+    .list-group-sm {
+        .list-group-item {
+            padding: 0.25rem 0.5rem;
+        }
+    }
+    .custom-switch {
+        .add-region--button {
+            margin-right: 50px;
+        }
+    }
+    .yandex-setup {
+        .list-group-item-main {
+        }
+        .custom-control-input:checked ~ .custom-control-label::before {
+            background: rgb(255, 204, 0);
+            border-color: rgb(255, 204, 0);
+        }
+    }
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background: #ededed;
+    padding-bottom: 200px;
+    overflow: hidden;
+    .content-wrapper {
+        transition: all 0.6s ease;
+        padding-left: 300px;
+    }
+}
+
+.modal-content__hidden {
+    display: none !important;
+}
+
+.custom-css {
+    background: yellow;
+    border: 1px solid red;
+}
+
+// MAIN SETTING STYLE
+body {
+    font-family: "Roboto", sans-serif !important;
+    background-color: #ededed !important;
+}
+a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+:focus {
+    outline: none !important;
+}
+
+// Главная кнопка
+.main-btn {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #feb700;
+    border: 2px solid #feb700;
+    color: #333333;
+    font-size: 20px;
+    padding: 14px 54px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    background-color: #ffa800;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+//
+
+// Кнопка Зеленая
+.success-btn {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #11ce8a;
+    border: 2px solid #11ce8a;
+    color: #333333;
+    font-size: 20px;
+    padding: 14px 54px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.success-btn:hover {
+    text-decoration: none;
+    background-color: #02b474;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+//
+
+// Кнопка отмены
+.cancel-btn {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #717171;
+    text-align: center;
+    color: #717171;
+    font-size: 20px;
+    padding: 14px 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.cancel-btn:hover {
+    text-decoration: none;
+    border: 2px solid #525050;
+    color: #525050;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+//
+
+// Кнопка удаление
+.delete-btn {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #ff5656;
+    border: 2px solid #ff5656;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 14px 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.delete-btn:hover {
+    text-decoration: none;
+    background-color: #f44242;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+//
+
+// Кнопка Архивирования
+.archive-btn {
+    padding: 14px 0;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.bg__header--name {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #feb700;
+}
+
+//

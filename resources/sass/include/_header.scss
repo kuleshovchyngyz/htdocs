@@ -1,0 +1,110 @@
+// HEADER START
+.bg__header {
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    padding: 10px 0;
+    background: rgb(79, 79, 79);
+    background: linear-gradient(270deg, #4f4f4f 37.67%, #333333 59.98%);
+    &:before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        display: block;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        background: linear-gradient(89.13deg, #454444 -84.83%, #424242 71.41%);
+        box-shadow: -4px 0px 6px rgba(0, 0, 0, 0.16);
+        border-radius: 60px 0px 0px 60px;
+    }
+    a {
+        color: white;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover {
+            color: #feb700;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+    }
+
+    .dropdown-menu {
+        height: 300px;
+        width: 100%;
+        padding: 0;
+        overflow: auto;
+        a {
+            color: #333333;
+            padding: 10px 10px 0px 10px;
+        }
+        &::-webkit-scrollbar {
+            width: 6px;
+            background-color: #c0c0c0;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #717171;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+        }
+    }
+    .project-name--button {
+        display: flex;
+        align-items: center;
+        background: transparent;
+        border: none;
+        border-bottom: 1.5px solid #ffffff;
+        color: white;
+        width: 224px;
+    }
+    #siteSettings {
+        padding-top: 0.8rem;
+    }
+
+    .create-project--button {
+        background: white;
+    }
+}
+
+.dropdown-toggle {
+    &::before {
+        content: "";
+        background-image: url("/images/header/select_project_icon.svg");
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;
+        display: block;
+    }
+    &::after {
+        width: 10px;
+        height: 10px;
+        border: none !important;
+        margin-left: auto;
+        background-image: url("/images/header/down.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    span {
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+
+.sidebar__current-point {
+    color: #feb700 !important;
+    img {
+        filter: brightness(0) saturate(100%) invert(61%) sepia(85%)
+            saturate(640%) hue-rotate(1deg) brightness(104%) contrast(102%);
+    }
+}
+// HEADER END

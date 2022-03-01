@@ -1,0 +1,209 @@
+foreach($diff as $d){
+}
+PendingQuery::all()
+PendingQuery::all()
+PendingQuery::all()
+foreach($diff as $d){
+}
+$g1 = Position::where('google_date','2021-08-24')->where('project_id',18)->get()
+$g2 = Position::where('google_date','2021-09-07')->where('project_id',18)->get()
+$diff = collect($g1->toArray())->diffAssoc(collect($g2->toArray()))->take(10)
+$diff = collect($g1->toArray())->diffAssoc(collect($g2->toArray()))
+$diff->count()
+$duplicateRecords = Position::select('id','yandex_date','query_id','region_id')->where('yandex_date','2021-08-31')->get()
+$duplicateRecords = Position::select('id','yandex_date','query_id','region_id')->where('yandex_date','2021-08-31')->take(10)
+$duplicateRecords = Position::select('id','yandex_date','query_id','region_id')->where('yandex_date','2021-08-31')->take(10)
+$diff->count()
+$diff->take(10)
+Region::where('id',65)->where('id',39)->where('id',16)->get()
+Region::where('id',65)->where('id',39)->where('id',16)->get()
+Region::where('id',65)->get()
+Region::where('id',65)->orwhere('id',39)->orwhere('id',16)->get()
+$r = Region::where('id',65)->orwhere('id',39)->orwhere('id',16)->pluck('id','google_index')
+$r = Region::where('id',65)->orwhere('id',39)->orwhere('id',16)->pluck('google_index',id)
+$r = Region::where('id',65)->orwhere('id',39)->orwhere('id',16)->pluck(google_index,id)
+$r = Region::where('id',65)->orwhere('id',39)->orwhere('id',16)->pluck(google_index,id)->toArray()
+$diff->count()
+foreach($diff as $d){
+PendingQuery::create(['method'=>$d['method'],'query_id'=>$d['query_id'],'region_id'=>$d['region_id'],'project_id'=>$d['project_id'],'failed'=>0,'region'=>$r[$d['region_id']];
+foreach($diff as $d){ $d['query_id'];}
+foreach($diff as $d){ echo $d['query_id'];}
+foreach($diff as $d){
+PendingQuery::create(['method'=>$d['method'],'query_id'=>$d['query_id'],'region_id'=>$d['region_id'],'project_id'=>$d['project_id'],'failed'=>0,'region'=>$r[$d['region_id']];
+$r
+$r[16]
+foreach($diff as $d){
+ PendingQuery::create(['method'=>$d['method'],'query_id'=>$d['query_id'],'region_id'=>$d['region_id'],'project_id'=>$d['project_id'],'failed'=>0,'region'=>$r[$d['region_id']]);
+foreach($diff as $d){
+ PendingQuery::create(['method'=>$d['method'],'query_id'=>$d['query_id'],'region_id'=>$d['region_id'],'project_id'=>$d['project_id'],'failed'=>0,'region'=>$r}
+foreach($diff as $d){
+ PendingQuery::create(['method'=>$d['method'],'query_id'=>$d['query_id'],'region_id'=>$d['region_id'],'project_id'=>$d['project_id'],'failed'=>0,'region'=>$r}
+foreach($diff as $d){
+ PendingQuery::create(['method'=>$d['method'],'query_id'=>$d['query_id'],'region_id'=>$d['region_id'],'project_id'=>$d['project_id'],'failed'=>0,'region'=>$r[$d['region_id']]]);}
+$q = PendingQuery::pluck('query_id')
+$q = PendingQuery::pluck('query_id')->count()
+$q = PendingQuery::pluck('query_id')->unique()
+$q->count()
+Query::whereIn('id',$q)
+Query::whereIn('id',$q)->get()
+Query::whereIn('id',$q)->get()->take(10)
+Query::whereIn('id',$q)->pluck('name',id)
+$qn = Query::whereIn('id',$q)->pluck('name',id)
+$qn = Query::whereIn('id',$q)->pluck('name',id)->toArray()
+$qn = Query::whereIn('id',$q)->pluck('name',id)->toArray()
+PendingQuery::update(['word'=>$qn[DB::raw(query_id)]])
+PendingQuery::update(['word'=>$qn[DB::raw('query_id')]])
+PendingQuery::update(['word'=>$qn[DB::raw('query_id')]])
+PendingQuery::update(['word'=>$qn[DB::raw('query_id')]])
+$qn
+PendingQuery::update(['word'=>$qn[DB::raw('query_id')]])
+PendingQuery::update(['word'=>$qn[$this->query_id]])
+PendingQuery::update(['word'=>$qn[$this->query_id]])
+DB::table('pending_queries')->update(['word'=>$qn[$this->query_id]])
+DB::table('pending_queries')->update(['word'=>$qn[DB::raw('query_id')]])
+DB::table('pending_queries')->update(['word'=>$qn[DB::raw('query_id')]])
+DB::table('pending_queries')->update(['word'=>$qn[DB::raw('query_id')]])
+DB::table('pending_queries')->update(['word'=>$qn[DB::raw('query_id')]])
+DB::table('pending_queries')->where('id', '>', 0)->update(['word'=>$qn[DB::raw('query_id')]])
+DB::table('pending_queries')->update(['word'=>$qn[DB::raw('query_id')]])
+PendingQuery::update(['word'=>$qn[DB::raw('query_id')]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw('query_id')]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw(query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[$this->query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[\DB::raw(query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw(query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw(query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw(query_id)]])
+PendingQuery::where('id','>',0)->update(['word'=>DB::raw(query_id)])
+$qn
+PendingQuery::where('id','>',0)->update(['word'=>$qn[(int)$this->query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[$this->query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[$this->query_id]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw(query_id)]])
+PendingQuery::where('id','>',0)->update(['word'=>(DB::raw(query_id))])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[intval(DB::raw(query_id))]])
+$qn
+$qn[4380]
+$qn['4380']
+PendingQuery::where('id','>',0)->update(['word'=>(DB::raw(query_id))])
+PendingQuery::where('id','>',0)->update(['word'=>($qn[DB::raw(query_id)])])
+PendingQuery::where('id','>',0)->update(['word'=>($qn[4380])])
+PendingQuery::where('id','>',0)->update(['word'=>($qn[DB::raw(query_id)])])
+PendingQuery::where('id','>',0)->update(['word'=>($qn[DB::raw(query_id)])])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw('query_id')]]);
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw(query_id]]);
+PendingQuery::where('id','>',0)->update(['word'=>$qn[$this->query_id]]);
+PendingQuery::where('id','>',0)->update(['word'=>$qn[intval(DB::raw(query_id))]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[intval(DB::raw('query_id'))]])
+PendingQuery::where('id','>',0)->update(['word'=>$qn[DB::raw('query_id')]])
+count($qn)
+$qn = Query::whereIn('id',$q)->pluck('name',id)->toArray()
+$qn = Query::whereIn('id',$q)->pluck('name','id')->toArray()
+$r
+$qn = Query::whereIn('id',$q)->pluck('name',id)->toArray()
+$q = PendingQuery::pluck('query_id')->unique()
+$qn = Query::whereIn('id',$q)->pluck('name',id)->toArray()
+foreach($qn as $q){
+}
+foreach($qn as $q){
+}
+foreach($qn as $key=>$q){
+PendingQuery::where('id',$key)->update(['word'=>$q]);}
+foreach($qn as $key=>$q){
+PendingQuery::where('query_id',$key)->update(['word'=>$q]);}
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->get()
+$p = Position::where('status','complete')->where('google_date','like','2021-09-07%')->get()
+foreach($p as $ps){
+PendingQuery::where('region_id',$ps->region_id)->where('query_id',$ps->query_id)->delete();}
+$p->count()
+foreach($p as $ps){
+PendingQuery::where('region_id',$ps->region_id)->where('query_id',$ps->query_id)->delete();}
+foreach($p as $ps){
+PendingQuery::where('region_id',$ps->region_id)->where('query_id',$ps->query_id)->delete();}
+whereNotNull
+whereNotNull
+Position::where('google_date','2021-08-24')->where('region_id',39)->count()
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->count()
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->get()
+foreach($old as $o){
+}
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->count()
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->get();
+$new = Position::where('google_date','2021-09-07')->where('region_id',39)->get();
+$new->count()
+foreach($old as $o){
+}
+
+$new->count()
+$new = $new->toArray()
+$old = $old->toArray()
+
+array_diff($old,$new)
+$old
+$old[0]
+$c=0
+foreach($old as $o){
+foreach($new as $n){
+if($o->query_id==$n->query_id)$c++;}}
+
+$c=0
+foreach($old as $o){
+foreach($new as $n){
+if($o['query_id']==$n['query_id'])$c++;}}
+$c
+foreach($old as $o){
+foreach($newas $n){
+if($o['query_id']==$n['query_id'])$c++;}}
+foreach($old as $o){
+foreach($new as $n){
+if($o['query_id']!=$n['query_id'])$c++;}}
+$c
+$new = Position::where('google_date','2021-09-07')->where('region_id',39)->get();
+$old = Position::where('google_date','2021-08-21')->where('region_id',39)->get();
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->select('');
+$old->diffAssoc($new)
+
+$m
+$m->count()
+foreach($old as $o){ foreach($new as $key=>$n){ if($o['query_id']!=$n['query_id'])unset($new[$key]);}}
+$m->count()
+$old = $old->toArray()
+$new = $new->toArray()
+count($new)
+count($old)
+foreach($old as $key=>$o){ foreach($new as $n){ if($o['query_id']==$n['query_id'])unset($old[$key]);}}
+count($old)
+$old = collect($old)
+$old->take(5)
+$old[0]
+$old->first()
+$old->first()->id
+$old->first()['id']
+$new->count()
+count($old)
+$old->toArray()
+$old = $old->toArray()
+$old = Position::where('google_date','2021-08-24')->where('project_id',18)->select('');
+$old = Position::where('google_date','2021-08-24')->where('project_id',18)->get();
+$new = Position::where('google_date','2021-09-07')->where('project_id',18)->get();
+$old->count()
+$new->count()
+foreach($old as $key=>$o){ foreach($new as $n){ if($o['query_id']==$n['query_id'])unset($old[$key]);}}
+$old->count()
+$old = Position::where('google_date','2021-08-24')->where('project_id',18)->get();
+$old->count()
+foreach($old as $key=>$o){ foreach($new as $n){ if($o['query_id']==$n['query_id']&&$o['region_id']==$n['region_id'])unset($old[$key]);}}
+$old->count()
+$new->count()
+$old->take(5)
+$new->count()
+history --show
+? history
+history --tail 1000 --save somefile.txt
+? history

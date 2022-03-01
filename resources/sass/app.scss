@@ -1,0 +1,66 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+$fa-font-path: "/public/fonts/vendor/@fortawesome/fontawesome-free" !default; //local
+//$fa-font-path: "/public/fonts/vendor/@fortawesome/fontawesome-free" !default;     //production
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~jquery-ui/themes/base/all.css";
+@import "~bootstrap-select/sass/bootstrap-select";
+
+@import "~flatpickr/dist/flatpickr";
+// All Modal style
+@import "modal/modal";
+
+// Include
+@import "include/header";
+@import "include/bootstrap-edit";
+@import "include/variables";
+@import "include/main";
+@import "include/select";
+@import "include/input";
+
+// Home
+@import "main-page/home";
+
+//  Project
+@import "project/project-home";
+
+// Sidebar
+@import "sidebar/sidebar";
+
+// Query-group
+@import "query-group/query-group-index";
+
+// Summary
+@import "brief_charts/brief";
+
+// Regionalsummary
+@import "regional-summary/regionalsummary";
+
+//Schedule
+@import "schedule/schedule";
+
+// Project-region
+@import "project-region/project-region";
+
+// Competitor
+@import "competitor/competitor";
+
+// Setting
+@import "setting/setting";
+
+// Reports
+@import "reports/reports";
+
+// Position
+@import "project-position/position";
+
+// Select2
+@import "select2";

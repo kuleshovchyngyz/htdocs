@@ -1,0 +1,20 @@
+.setting-bg {
+    background-image: url("/images/setting-page/setting.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    backdrop-filter: opacity(0.2);
+}
+.setting__content-title {
+    line-height: 1;
+    span {
+        font-size: 14px;
+        color: #717171;
+    }
+}
+
+.setting--set {
+    a {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,104 @@
+PendingQuery::where('query_id',$key)->update(['word'=>$q]);}
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->count()
+Position::where('status','complete')->where('google_date','like','2021-09-07%')->get()
+$p = Position::where('status','complete')->where('google_date','like','2021-09-07%')->get()
+foreach($p as $ps){
+PendingQuery::where('region_id',$ps->region_id)->where('query_id',$ps->query_id)->delete();}
+$p->count()
+foreach($p as $ps){
+PendingQuery::where('region_id',$ps->region_id)->where('query_id',$ps->query_id)->delete();}
+foreach($p as $ps){
+PendingQuery::where('region_id',$ps->region_id)->where('query_id',$ps->query_id)->delete();}
+whereNotNull
+whereNotNull
+Position::where('google_date','2021-08-24')->where('region_id',39)->count()
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->count()
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->get()
+foreach($old as $o){
+}
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->count()
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->get();
+$new = Position::where('google_date','2021-09-07')->where('region_id',39)->get();
+$new->count()
+foreach($old as $o){
+}
+
+$new->count()
+$new = $new->toArray()
+$old = $old->toArray()
+
+array_diff($old,$new)
+$old
+$old[0]
+$c=0
+foreach($old as $o){
+foreach($new as $n){
+if($o->query_id==$n->query_id)$c++;}}
+
+$c=0
+foreach($old as $o){
+foreach($new as $n){
+if($o['query_id']==$n['query_id'])$c++;}}
+$c
+foreach($old as $o){
+foreach($newas $n){
+if($o['query_id']==$n['query_id'])$c++;}}
+foreach($old as $o){
+foreach($new as $n){
+if($o['query_id']!=$n['query_id'])$c++;}}
+$c
+$new = Position::where('google_date','2021-09-07')->where('region_id',39)->get();
+$old = Position::where('google_date','2021-08-21')->where('region_id',39)->get();
+$old = Position::where('google_date','2021-08-24')->where('region_id',39)->select('');
+$old->diffAssoc($new)
+
+
+$m->count()
+foreach($old as $o){ foreach($new as $key=>$n){ if($o['query_id']!=$n['query_id'])unset($new[$key]);}}
+$m->count()
+$old = $old->toArray()
+$new = $new->toArray()
+count($new)
+count($old)
+foreach($old as $key=>$o){ foreach($new as $n){ if($o['query_id']==$n['query_id'])unset($old[$key]);}}
+count($old)
+$old = collect($old)
+$old->take(5)
+$old[0]
+$old->first()
+$old->first()->id
+$old->first()['id']
+$new->count()
+count($old)
+$old->toArray()
+$old = $old->toArray()
+$old = Position::where('google_date','2021-08-24')->where('project_id',18)->select('');
+$old = Position::where('google_date','2021-08-24')->where('project_id',18)->get();
+$new = Position::where('google_date','2021-09-07')->where('project_id',18)->get();
+$old->count()
+$new->count()
+foreach($old as $key=>$o){ foreach($new as $n){ if($o['query_id']==$n['query_id'])unset($old[$key]);}}
+$old->count()
+$old = Position::where('google_date','2021-08-24')->where('project_id',18)->get();
+$old->count()
+foreach($old as $key=>$o){ foreach($new as $n){ if($o['query_id']==$n['query_id']&&$o['region_id']==$n['region_id'])unset($old[$key]);}}
+$old->count()
+$new->count()
+$old->take(5)
+$new->count()
+history --show
+? history
+history --tail 1000 --save somefile.txt
+? history
+history --tail 5000 --save somefile.txt
+$g1 = Position::where('google_date','2021-08-24')->where('project_id',18)->get()
+$g2 = Position::where('google_date','2021-09-07')->where('project_id',18)->get()
+$diff = collect($g1->toArray())->diffAssoc(collect($g2->toArray()))
+$q = PendingQuery::pluck('query_id')->unique()
+$qn = Query::whereIn('id',$q)->pluck('name',id)->toArray()
+foreach($qn as $key=>$q){ PendingQuery::where('query_id',$key)->update(['word'=>$q]);}

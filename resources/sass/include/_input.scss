@@ -1,0 +1,38 @@
+.modal-form__content--summary-date {
+    display: flex;
+    align-items: center;
+    input {
+        padding-left: 35px;
+    }
+}
+
+.modal-form__content--summary-date:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+}
+
+.modal-form__content--summary-date:before {
+    background-image: url("/images/modal_icon/calend.svg");
+}
+
+.event {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 150px;
+    bottom: 3px;
+    left: calc(50% - 1.5px);
+    content: " ";
+    display: block;
+    background: #3d8eb9;
+}
+
+.event.busy {
+    background: #f64747;
+}

@@ -1,0 +1,93 @@
+// MODAL STYLE START
+.modal {
+    z-index: 9999;
+}
+.modal-dialog {
+    margin-top: 5rem;
+    max-width: 390px;
+}
+
+.modal-header {
+    background: linear-gradient(246.08deg, #4f4f4f -160.07%, #333333 119.57%),
+        linear-gradient(89.13deg, #454444 -84.83%, #424242 71.41%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+    .close {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        margin: 0;
+        padding: 0;
+        color: white;
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1.5px solid #717171;
+}
+
+.modal-form__content {
+    padding: 40px;
+    input {
+        border: none;
+        border-radius: 0;
+        padding-left: 25px;
+        border-bottom: 1.5px solid #717171;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+    .from__icon:before {
+        content: "";
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+    }
+}
+
+.form__user:before {
+    background-image: url("/images/modal_icon/login_user.svg");
+}
+
+.form__password:before {
+    background-image: url("/images/modal_icon/login_password.svg");
+}
+
+.form__project-name:before {
+    background-image: url("/images/modal_icon/project_name.svg");
+}
+
+.form__site:before {
+    background-image: url("/images/modal_icon/site.svg");
+}
+
+// Для модального окна удаление
+.delete__name {
+    color: #ff5656;
+}
+.modal-form__content--archive span {
+    color: #feb700;
+}
+
+.modal-form__content--delete,
+.modal-form__content--archive {
+    font-weight: 500;
+}
+//
+
+// MODAL STYLE END

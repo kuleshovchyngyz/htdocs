@@ -1,0 +1,48 @@
+.select2 {
+    width: 100% !important;
+}
+.select2-selection {
+    display: flex !important;
+    align-items: center;
+    border: none !important;
+    border-bottom: 1.5px solid #717171 !important;
+    border-radius: 0 !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding: 0 !important;
+}
+
+.select2-selection:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.modal-form__content--summary-add {
+    .select2-selection:before {
+        background-image: url("/images/modal_icon/project_name.svg");
+    }
+}
+
+.modal-form__content--summary-seacrh {
+    .select2-selection:before {
+        background-image: url("/images/modal_icon/search.svg");
+    }
+}
+
+.modal-form__content--summary-region {
+    .select2-selection:before {
+        background-image: url("/images/modal_icon/map.svg");
+    }
+}
+
+.modal-form__content--summary-date {
+    .select2-selection:before {
+        background-image: url("/images/modal_icon/calend.svg");
+    }
+}
